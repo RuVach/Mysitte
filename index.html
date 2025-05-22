@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="/styles/styles.css"/>
+    <title>Мій сайт-візитка</title>
+</head>
+
+<body>
+    
+<!-- Сонечко -->
+<div id="theme-toggle" class="theme-icon sun"></div>
+
+    <!-- Заголовок -->
+    <header>
+        <div class="header-content">
+            <section id="head">
+            <h1 class="main-title">Русланчик</h1>
+            <h4 class="main-description">Руся - Старі Бох</h4>
+          </section>
+        </div>
+    </header>
+
+    <div class="container">
+
+        <!-- Про мене -->
+        <section id="about">
+            <h2>Про мене</h2>
+            <p>Мене звати Руслан, я прийшов сюди з 10-ї школи. У мене є три собаки і п’ять котів. Мені подобається волейбол. 
+               У мене немає улюбленого жанру музики – я слухаю майже все. Цікавий факт: до коледжу я майже ніколи не слухав музику. 
+               Не палю і не п'ю, але король(імператор) абезян. ОБОЖНЮЮ ФОТОГРФУВАТИ</p>
+        </section>
+        
+        <!-- Фоточки -->
+        <section id="gallery">
+            <h2>Галерея</h2>
+            <div class="carousel">
+                <button class="left" onclick="prevImage()">&#10094;</button>
+                <div class="carousel-images">
+                    <img src="/img/gallary/img1.png" alt="Фото 1" class="active" />
+                    <img src="/img/gallary/img2.jpg" alt="Фото 2" />
+                    <img src="/img/gallary/img3.png" alt="Фото 3" />
+                    <img src="/img/gallary/img4.jpg" alt="Фото 4" />
+                    <img src="/img/gallary/img5.jpg" alt="Фото 5" />
+                    <img src="/img/gallary/img6.jpg" alt="Фото 6" />
+                    <img src="/img/gallary/img7.jpg" alt="Фото 7" />
+                    <img src="/img/gallary/img8.jpg" alt="Фото 8" />
+                    <img src="/img/gallary/img9.png" alt="Фото 9" />
+                    <img src="/img/gallary/img10.jpg" alt="Фото 10" />
+                </div>
+                <button class="right" onclick="nextImage()">&#10095;</button>
+            </div>
+        </section>
+
+        <!-- Скіли -->
+        <section id="skills">
+            <h2>Мої навички</h2>
+            <ul class="skills-list">
+                <!-- Замість назв поставити фото мов програмування -->
+                <li class="skill"><img src="/img/pick/ht.png" width="100px"></li>
+                <li class="skill"><img src="/img/pick/css.png" width="60px"></li>
+                <li class="skill"><img src="/img/pick/js.png" width="130px"></li>
+                <li class="skill"><img src="/img/pick/cs.png" width="100px"></li>
+                <a href="https://promptengineering.org/tag/llama-2/" target="_blank"><li class="links"><img src="/img/pick/pr.png" width="100px"></li></a>
+            </ul>
+        </section>
+        
+        <!-- Хобі -->
+        <section id="hobbi">
+            <h2>Мої захоплення</h2>
+            <ul class="hobbi-list">
+                <a href="/index2_volley.html" target="_blank"><li class="link">Валябол</li></a>
+                <li class="hobbi">Ігри</li>
+                <li class="hobbi">Музяка</li>
+                <li class="hobbi">Тварінкі</li>
+                <li class="hobbi">Друзі</li>
+                <li class="hobbi">Фото</li>
+            </ul>
+        </section>
+
+        <!-- Силочки -->
+        <section id="social">
+            <h2>Соціальні мережі</h2>
+            <a href="https://www.tiktok.com/@iterbee" target="_blank"><img src="/img/pick/tt.png" alt="TikTok" width="75"></a>
+            <a href="https://www.instagram.com/iter_be/" target="_blank"><img src="/img/pick/in.png" alt="Instagram" width="75"></a>
+            <a href="https://github.com/RuVach  " target="_blank"><img src="/img/pick/gh.png" alt="GitHub" width="75"></a>
+        </section>
+    </div>
+
+    <script src="/scripts/gallary.js"></script>
+    <script src="/scripts/sun.js"></script>
+</body>

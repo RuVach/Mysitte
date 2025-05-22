@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="/styles/styles.css"/>
+    <title>Мій сайт-візитка</title>
+</head>
+
+<body>
+    
+<!-- Сонечко -->
+<div id="theme-toggle" class="theme-icon sun"></div>
+
+<!-- Дамой -->
+<div>
+<a href="index.html"><img src="/img/pick/home.png" alt="Головна" class="home-btn"></a>
+</div>
+
+    <!-- Заголовок -->
+    <header>
+        <div class="header-content">
+            <section id="head">
+            <h1 class="main-title">Трішки про валябол</h1>
+          </section>
+        </div>
+    </header>
+
+    <div class="container">
+
+        <!-- Про валябол -->
+        <section id="about">
+            <p>Я почав займатися волейболом приблизно на початку жовтня 2024 року. 
+                Ми орендували зал і тренувалися щотижня. За цей час я опанував:</p>
+                <ul>
+                    <li class="li">Верхній подачі</li>
+                    <li class="li">Нижньому прийому</li>
+                    <li class="li">Та трішечки теорії</li>
+               </ul>  
+               <p>Тренером виступала Вікторія Сікрет.
+               Після пів року тренувань ми взяли участь у змаганнях з волейболу та здобули почесне 3 місце. 
+               Але я вважаю це несправедливим, адже нас нахабно обікрали. 
+               У нас забрали нашого ключового гравця – Гучика (Гургена), лише через те, що він є збірником. 
+               Проте в ІНШИХ групах теж грали збірники, але правило застосували вибірково – тільки проти нас😭.</p>
+        </section>
+        
+        <section>        
+               <p class=".list"> Учасниками нашої команди були: </p>
+               <ul>
+                <li class="li">я</li>
+                <li class="li">Кіньов Вува</li>
+                <li class="li">Шаповал Артьомка</li>
+                <li class="li">Гурієнко Санічка</li>
+                <li class="li">Якименко Софія</li>
+                <li class="li">Штабрат Діма</li>
+                <li class="li">Гучік</li>
+                <li class="li">Ємець Цібуля</li>
+               </ul>
+        </section>
+        
+        <!-- Фоточки -->
+        <section id="gallery">
+            <h2>Галерея</h2>
+            <div class="carousels">
+                <button class="left" onclick="prevImage()">&#10094;</button>
+                <div class="carousels-images">
+                    <img src="/img/gal-vol/p1.jpg" alt="Фото 1" class="active" />
+                    <img src="/img/gal-vol/p2.jpg" alt="Фото 2" />
+                    <img src="/img/gal-vol/p3.jpg" alt="Фото 3" />
+                    <img src="/img/gal-vol/p4.jpg" alt="Фото 4" />
+                    <img src="/img/gal-vol/p5.jpg" alt="Фото 5" />
+                    <img src="/img/gal-vol/p6.jpg" alt="Фото 6" />
+                </div>
+                <button class="right" onclick="nextImage()">&#10095;</button>
+            </div>
+        </section>
+
+        <!-- Скіли -->
+        <section id="skills">
+            <h2>Мої навички до і після</h2>
+            <ul class="skills-list">
+                <li class="vol">Верхня подача -</li>
+                <li class="vol">Нижня подача 3/10</li>
+                <li class="vol">Нижній прийом -</li>
+                <li class="vol">Верхній прийом 2/10</li>
+                <li class="vol">Атака -900/10</li>
+            </ul>
+            
+            <p class="vidst"></p>
+
+            <ul class="skills-list">
+                <li class="vol">Верхня подача 1/10</li>
+                <li class="vol">Нижня подача 7/10</li>
+                <li class="vol">Нижній прийом 3/10</li>
+                <li class="vol">Верхній прийом 5/10</li>
+                <li class="vol">Атака -12/10</li>
+            </ul>
+        </section>
+
+        <!-- Силочки -->
+        <section id="social">
+            <h2>Соціальні мережі</h2>
+            <a href="https://www.tiktok.com/@iterbee" target="_blank"><img src="/img/pick/tt.png" alt="TikTok" width="75"></a>
+            <a href="https://www.instagram.com/iter_be/" target="_blank"><img src="/img/pick/in.png" alt="Instagram" width="75"></a>
+            <a href="https://github.com/RuVach  " target="_blank"><img src="/img/pick/gh.png" alt="GitHub" width="75"></a>
+        </section>
+    </div>
+
+    <script src="/scripts/gallary-vol.js"></script>
+    <script src="/scripts/sun.js"></script>
+</body>
